@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         );
         listaMercadorias.add(
                 new Mercadoria(
-                        "Mochila de viagem grande",
+                        "Mochila de viagem",
                         10,
                         69.90,
                         "9",
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         );
         listaMercadorias.add(
                 new Mercadoria(
-                        "Vancouver Panela de Pressão",
+                        "Panela de Pressão",
                         10,
                         69.90,
                         "9",

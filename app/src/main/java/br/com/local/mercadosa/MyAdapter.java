@@ -1,6 +1,7 @@
 package br.com.local.mercadosa;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,6 +46,14 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         holder.cardMercadoria.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(context, MercadoriasActivity.class);
+
+                intent.putExtra("Titulo", lstMercadorias.get(position).getNome());
+                intent.putExtra("Descricao", lstMercadorias.get(position).getValor());
+                intent.putExtra("Categoria", lstMercadorias.get(position).getRating());
+                intent.putExtra("ImagemFilme", lstMercadorias.get(position).getImagem());
+
+                context.startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
             }
         });
 
