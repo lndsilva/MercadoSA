@@ -7,9 +7,22 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-      <androidx.recyclerview.widget.RecyclerView
-          android:layout_width="match_parent"
-          android:layout_height="match_parent"
-          android:id="@+id/idRecylerView"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mercadorias"
+        android:gravity="center_horizontal"
+        android:padding="15sp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRecylerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
