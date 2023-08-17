@@ -5,6 +5,7 @@
     android:layout_width="190dp"
     android:layout_height="260dp"
     android:clickable="true"
+    android:focusable="true"
     android:foreground="?android:attr/selectableItemBackground"
     app:cardCornerRadius="1dp">
 
@@ -18,6 +19,7 @@
             android:id="@+id/idImgMercadorias"
             android:layout_width="180dp"
             android:layout_height="200dp"
+            android:contentDescription="@string/imagem_da_mercadoria"
             android:scaleType="centerCrop"
             android:src="@drawable/cafe" />
 
@@ -27,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10sp"
-            android:text="Orfeu Café Clássico"
+            android:text="@string/orfeu_caf_cl_ssico"
             android:textColor="#000"
             android:textSize="15sp"
             android:textStyle="bold" />

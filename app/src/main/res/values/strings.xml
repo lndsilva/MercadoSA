@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MercadoSA</string>
+    <string name="imagem_da_mercadoria">Imagem da mercadoria</string>
+    <string name="orfeu_caf_cl_ssico">Orfeu Café Clássico</string>
 </resources>
