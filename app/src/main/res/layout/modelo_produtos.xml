@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/idCardFilmes"
+    android:id="@+id/idCardMercadorias"
     android:layout_width="190dp"
     android:layout_height="260dp"
     android:clickable="true"
@@ -15,14 +15,14 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/idImgFilmes"
+            android:id="@+id/idImgMercadorias"
             android:layout_width="180dp"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
             android:src="@drawable/cafe" />
 
         <TextView
-            android:id="@+id/idTituloFilmes"
+            android:id="@+id/idTituloMercadorias"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
